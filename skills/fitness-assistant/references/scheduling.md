@@ -42,7 +42,7 @@ openclaw automations create "0 7 * * *" "<self-contained prompt>" \
 ## Self-contained payload prompt (replace placeholders)
 
 ```text
-Daily fitness assistant run (skill: fitness-assistant): generate today's meal plan and workout for {name} using the saved profile — age {age}, sex {sex}, height {height}, weight {weight}, activity {activity}, goal {goal}, conditions/restrictions {conditions or none}, routine {routine}, language {language}, units {metric/imperial}. Output the full daily plan in {language} with sections: Today's plan / Breakfast / Lunch / Dinner / Snack / Water / Workout, including calories and macros, and match the workout to {experience} with {equipment}. Post it in this chat.
+Daily fitness assistant run (skill: fitness-assistant): generate today's meal plan and workout for {name} using the saved profile — age {age}, sex {sex}, height {height}, weight {weight}, activity {activity}, goal {goal}, conditions/restrictions {conditions or none}, routine {routine}, language {language}, units {metric/imperial}, ingredient preferences {preferences or "use defaults"}. Build meals from the saved ingredient choices when present, otherwise use the meal-planning defaults. Output the full daily plan in {language} with sections: Today's plan / Breakfast / Lunch / Dinner / Snack / Water / Workout, including calories and macros, and match the workout to {experience} with {equipment}. Post it in this chat.
 ```
 
 ## Manage

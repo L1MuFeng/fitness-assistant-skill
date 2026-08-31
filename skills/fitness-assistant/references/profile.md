@@ -22,6 +22,7 @@ Collect only what is needed. Reuse the saved profile when one exists (agent memo
 ## Collection tips
 
 - Start with the minimum set (age, sex, height, weight, activity level, goal, language, timezone), then ask about health and restrictions, framed as optional but recommended: "Any conditions or injuries I should account for? Any foods to avoid?"
+- When the user picks ingredients for a menu, save those choices as preferences (e.g. "chicken + rice for lunch") so future runs reuse them; ask again only when they want to change.
 - If the user does not know their timezone, derive it from their device/OS, or ask for city/country and map it to an IANA name.
 - If the user is a minor, has a chronic condition, is pregnant, or is on medication that affects diet/training, recommend professional medical or nutritional review before following the plan.
 - Save the completed profile back to the user's profile/memory (not into the skill folder) so future runs can reuse it.

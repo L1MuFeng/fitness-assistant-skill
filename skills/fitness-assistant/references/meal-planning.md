@@ -42,6 +42,50 @@
 - Restrictions: halal (halal-certified meat), vegetarian/vegan (plant proteins), lactose-intolerant (dairy-free alternatives), gluten-sensitive (rice, quinoa, gluten-free oats).
 - Hypertension: reduce sodium, prefer fresh over processed food. Diabetes: spread carbs evenly across meals, prefer low-GI sources, avoid sugary drinks. Keep this general and refer to a professional for medication-related advice.
 
+## Ingredient choices (build-your-own menu)
+
+After computing the calorie/macro targets, let the user build their own menu:
+
+1. Show choices per meal in the user's language — one protein, one carb, vegetables, one fat, plus an optional fruit/snack — as a compact list (not the full table) using the options below.
+2. Let the user pick. If they say "you choose"/"随便", pick the defaults (marked ★) and say so.
+3. Assemble the day so totals land within **±100 kcal** of the calorie target with macros staying close, adjusting serving sizes rather than dropping foods. If a preferred food is calorie-dense, use a smaller portion — never skip the protein.
+4. Respect restrictions and disliked foods from the profile; ask before introducing something new.
+5. Save the chosen ingredients as the user's preferences so future runs reuse them; ask again only when the user wants to change.
+
+Approximate values per serving (cooked weights unless noted); scale portions ±20–50% to fit the day's target:
+
+| Category | Ingredient (serving) | kcal | Protein | Carbs | Fat |
+|---|---|---|---|---|---|
+| Protein ★ | Chicken breast, 100 g | 165 | 31 | 0 | 3.6 |
+| Protein | Lean beef, 100 g | 217 | 26 | 0 | 12 |
+| Protein | Salmon, 100 g | 208 | 20 | 0 | 13 |
+| Protein | White fish (cod), 100 g | 82 | 18 | 0 | 0.7 |
+| Protein | Eggs, 2 medium | 143 | 13 | 1 | 9.5 |
+| Protein | Tofu, 100 g | 76 | 8 | 2 | 4.8 |
+| Protein | Tempeh, 100 g | 193 | 19 | 9 | 11 |
+| Protein | Lentils, cooked 150 g | 174 | 14 | 30 | 0.6 |
+| Protein | Chickpeas, cooked 150 g | 246 | 13 | 41 | 3.6 |
+| Protein | Greek yogurt, 150 g | 97 | 14 | 5 | 0.3 |
+| Carbs ★ | Rice, cooked 150 g | 195 | 4 | 43 | 0.4 |
+| Carbs | Oats, dry 50 g | 190 | 7 | 33 | 3 |
+| Carbs | Whole-wheat bread, 2 slices | 160 | 7 | 27 | 2 |
+| Carbs | Sweet potato, 150 g | 135 | 3 | 31 | 0.2 |
+| Carbs | Potatoes, boiled 150 g | 130 | 3 | 30 | 0.2 |
+| Carbs | Whole-wheat pasta, cooked 150 g | 210 | 8 | 40 | 1.5 |
+| Carbs | Quinoa, cooked 150 g | 170 | 6 | 30 | 2.7 |
+| Vegetables ★ | Broccoli, 150 g | 51 | 4 | 10 | 0.6 |
+| Vegetables | Leafy greens, 100 g | 23 | 3 | 4 | 0.4 |
+| Vegetables | Mixed stir-fry veg, 150 g | 45 | 2 | 8 | 0.5 |
+| Fats ★ | Olive oil, 10 g | 88 | 0 | 0 | 10 |
+| Fats | Almonds, 25 g | 145 | 5 | 5 | 12.5 |
+| Fats | Peanut butter, 20 g | 120 | 5 | 4 | 10 |
+| Fats | Avocado, 50 g | 80 | 1 | 4 | 7.5 |
+| Fats | Chia/flax seeds, 15 g | 75 | 2.5 | 4 | 5.5 |
+| Fruit/snack ★ | Apple, 1 medium | 95 | 0.5 | 25 | 0.3 |
+| Fruit/snack | Banana, 1 medium | 105 | 1 | 27 | 0.4 |
+| Fruit/snack | Berries, 100 g | 50 | 1 | 12 | 0.3 |
+| Fruit/snack | Low-fat yogurt, 150 g | 100 | 10 | 12 | 0.7 |
+
 ## Sample day (~2,000 kcal) — adapt portions to the computed target
 
 - Breakfast: oats + milk/soy milk + fruit + a few nuts
