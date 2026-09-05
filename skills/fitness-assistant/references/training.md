@@ -15,6 +15,19 @@
 | Intermediate (3–12 months) | Upper/lower 4×/week or push/pull/legs 3×/week | 3–4 sets × 8–12 reps, 60–90 s rest |
 | Advanced (1+ years) | 5–6 days/week split | 4–5 sets, varied rep ranges, deload week every 6–8 weeks |
 
+## Intensity
+
+Match the session to the user's stated intensity and available time:
+
+| User's intensity | Meaning (RPE 1–10) | Adjustments |
+|---|---|---|
+| Light | ~3–5; can hold a conversation easily | more sets/reps, shorter rests (30–60 s), moderate loads |
+| Moderate | ~6–7; breathing faster, can still talk in short sentences | standard sets and rests from the table above |
+| High / vigorous | ~8–10; very hard, cannot talk much | fewer sets, longer rests (2–3 min), shorter session; keep HIIT to 15–25 min |
+
+- Beginners and anyone returning after a break start at light-to-moderate intensity regardless of stated preference, then progress gradually.
+- When the user gives a training time, arrange meals around it: a light pre-workout snack 1–2 h before training and the main meal after; advise hydration before and during.
+
 ## Session template (beginner full body — gym or home)
 
 1. Warm-up: 5 min brisk walk/bike + arm circles, leg swings

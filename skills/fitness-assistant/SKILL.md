@@ -1,7 +1,7 @@
 ---
 name: fitness-assistant
 description: Plan daily meals and workouts from a user's age and health profile with customizable ingredients, then schedule localized plans via OpenClaw automations.
-version: 0.1.2
+version: 0.1.3
 ---
 
 # Fitness Assistant
@@ -14,10 +14,9 @@ Use this skill when the user asks for:
 
 ## Workflow
 
-### 1. Profile
+### 1. Opening message and profile
 
-Load the saved user profile if one exists; otherwise collect the fields listed in [references/profile.md](references/profile.md). Ask only for what is missing. Minimum required: age, sex, height, weight, activity level, goal, health conditions/limitations, dietary restrictions, training experience/equipment, daily routine, timezone (IANA), language.
-Optionally collect preferred ingredients per meal so the user's customized menu can be reused on later days.
+Start with the opening message in [references/opening.md](references/opening.md): briefly introduce what the skill does and tell the user which details to prepare (basics and goal, ingredient choices, training time and intensity, delivery preferences), then collect what is missing. Ask only for what is missing. Minimum required: age, sex, height, weight, activity level, goal, health conditions/limitations, dietary restrictions, ingredient choices, training experience/equipment, training time, training intensity, daily routine, timezone (IANA), language. If the user says "you decide"/"随便" for an item, use the default and say so.
 
 ### 2. Compute targets
 
@@ -32,7 +31,7 @@ Use `--unit imperial` for lb/in inputs and `--json` for machine-readable output.
 ### 3. Build today's plan
 
 - **Diet**: breakfast / lunch / dinner / optional snack split, water target, and macro-aware portions following [references/meal-planning.md](references/meal-planning.md). Offer ingredient choices per meal (protein, carbs, vegetables, fat, fruit/snack) and let the user build their own menu; use the defaults when they have no preference. Assemble the day within ±100 kcal of the target, respect dietary restrictions and the calorie floors, and save the chosen ingredients as preferences.
-- **Workout**: one session matched to experience, equipment, and time available, following [references/training.md](references/training.md); include warm-up, main work, and cooldown.
+- **Workout**: one session matched to experience, equipment, preferred training time, and intensity, following [references/training.md](references/training.md); include warm-up, main work, and cooldown.
 - **Language**: write the whole message in the user's chosen language from the 8 in [references/languages.md](references/languages.md), using that file's fixed labels so every language has the same structure.
 - **Safety**: this is general lifestyle guidance, not medical advice. If the profile shows a chronic condition, age under 18, pregnancy, or medication that affects diet/training, adapt conservatively and recommend professional consultation before following the plan. Never go below the calorie floors in meal-planning.md.
 
