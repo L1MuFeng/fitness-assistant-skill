@@ -28,6 +28,12 @@ Match the session to the user's stated intensity and available time:
 - Beginners and anyone returning after a break start at light-to-moderate intensity regardless of stated preference, then progress gradually.
 - When the user gives a training time, arrange meals around it: a light pre-workout snack 1–2 h before training and the main meal after; advise hydration before and during.
 
+## Logging and next-session progression
+
+- When the user reports completing a session, record: date, actual training time, intensity/RPE, duration, and how it felt (too easy / on target / very hard). Store it in the user's training log.
+- Prepare the next plan from the latest log entry: if the last session felt manageable, keep the volume and progress in small steps (add weight or reps); if it felt very hard, lower the intensity and lengthen rests; if the same muscles were trained less than 48 h ago, train other muscles or rest.
+- If the user skipped or could not finish a session, do not double the next dose; resume at the same or a slightly lower level.
+
 ## Session template (beginner full body — gym or home)
 
 1. Warm-up: 5 min brisk walk/bike + arm circles, leg swings

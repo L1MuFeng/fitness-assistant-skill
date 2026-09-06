@@ -86,6 +86,13 @@ Approximate values per serving (cooked weights unless noted); scale portions ±2
 | Fruit/snack | Berries, 100 g | 50 | 1 | 12 | 0.3 |
 | Fruit/snack | Low-fat yogurt, 150 g | 100 | 10 | 12 | 0.7 |
 
+## Today's ingredients and dish ideas
+
+- When the user lists what they have on hand today, build each meal from those items first: pick a protein, carbs, vegetables, and a fat from the list and name a concrete dish (e.g. "chicken, broccoli, rice → chicken-broccoli rice bowl"); write dish names in the user's language.
+- Estimate macros for any ingredient not in the table from common values. If an item does not fit a food group, use it only as a minor addition and keep the protein + vegetables + carbs structure.
+- If a whole group is missing from the user's list (e.g. no carbs or no protein), suggest one or two simple substitutes they likely have.
+- If the user gives no ingredients, fall back to their saved ingredient preferences or the defaults above.
+
 ## Sample day (~2,000 kcal) — adapt portions to the computed target
 
 - Breakfast: oats + milk/soy milk + fruit + a few nuts

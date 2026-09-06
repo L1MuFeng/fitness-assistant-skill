@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-06
+
+- Added: three-day check-in asking whether to keep or adjust the diet menu and training plan.
+- Added: meal planning can recommend dishes from the ingredients the user has on hand today.
+- Added: completed training time and intensity are logged and used to prepare the next workout.
+- Changed: changelog entries no longer carry version numbers.
+
 ## 0.1.3 (2026-09-05)
 
 - Added: guided opening message that introduces the assistant and tells the user which details to prepare before the first plan.

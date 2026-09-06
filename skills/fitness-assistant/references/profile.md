@@ -18,6 +18,9 @@ Collect only what is needed. Reuse the saved profile when one exists (agent memo
 | Training experience & equipment | Workout plan | beginner / intermediate / advanced; gym / home / bodyweight; days available per week |
 | Training time & frequency | Workout schedule | preferred days and clock, e.g. "07:00, Mon/Wed/Fri"; also determines meal timing around workouts |
 | Training intensity | Workout prescription | light / moderate / high (or RPE 1-10); beginners start at light-to-moderate |
+| Last plan confirmation | Three-day review cadence | date the user last confirmed a menu/training plan; review again after 3+ days |
+| Today's ingredients | Dish recommendation | per-planning ask: what food is on hand today (proteins / carbs / vegetables / fats) |
+| Training log | Next-plan preparation | latest sessions: date, actual training time, intensity/RPE, duration, how it felt |
 | Daily routine | Schedule and meal timing | wake time, meal times, preferred workout time, bedtime |
 | Timezone | Scheduling | IANA name, e.g. `Asia/Shanghai`, `America/New_York` — never abbreviations like CST/PST |
 | Language | Output | one of the 8 in languages.md |
@@ -27,6 +30,8 @@ Collect only what is needed. Reuse the saved profile when one exists (agent memo
 - Start with the minimum set (age, sex, height, weight, activity level, goal, language, timezone), then ask about health and restrictions, framed as optional but recommended: "Any conditions or injuries I should account for? Any foods to avoid?"
 - When the user picks ingredients for a menu, save those choices as preferences (e.g. "chicken + rice for lunch") so future runs reuse them; ask again only when they want to change.
 - Use the opening message (references/opening.md) to tell the user what to prepare, then collect the remaining fields one or two at a time — including ingredient choices, training time, and training intensity.
+- Before building a menu, ask what ingredients the user has today and recommend dishes from them (see meal-planning.md); treat it as a fresh question each day, not a saved preference.
+- After a completed workout, log the actual training time, intensity, duration, and how it felt (see training.md), and use the latest entry when writing the next plan.
 - If the user does not know their timezone, derive it from their device/OS, or ask for city/country and map it to an IANA name.
 - If the user is a minor, has a chronic condition, is pregnant, or is on medication that affects diet/training, recommend professional medical or nutritional review before following the plan.
 - Save the completed profile back to the user's profile/memory (not into the skill folder) so future runs can reuse it.
