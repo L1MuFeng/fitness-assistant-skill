@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-07
+
+- Added: fixed 8-language versions of the opening message, three-day review, and training-log dialogues; replies now use the block matching the user's language verbatim.
+- Added: dish recommendations now follow the regional cuisine style associated with the user's chosen language.
+- Changed: skill references point to the fixed dialogue file instead of on-the-fly translation.
+
 ## 2026-09-06
 
 - Added: three-day check-in asking whether to keep or adjust the diet menu and training plan.

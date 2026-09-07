@@ -93,6 +93,24 @@ Approximate values per serving (cooked weights unless noted); scale portions ±2
 - If a whole group is missing from the user's list (e.g. no carbs or no protein), suggest one or two simple substitutes they likely have.
 - If the user gives no ingredients, fall back to their saved ingredient preferences or the defaults above.
 
+## Regional dish styles by language
+
+When naming dishes, match the cuisine style of the user's chosen language (region is a guide, not a strict rule) and adapt it to what the user has today:
+
+| Language | Cuisine style to draw from | Typical dish shapes |
+|---|---|---|
+| English (en) | International / Western | grilled or pan-fried protein + grains + salad; wrap or grain bowl; oats with fruit |
+| 中文 (zh-CN) | Chinese home cooking | stir-fry + rice or noodles; rice bowl (盖浇饭-style); steamed fish + greens |
+| Español (es) | Latin American / Spanish | rice + beans + grilled meat; burrito-style bowl; tortilla/quesadilla with vegetables |
+| हिन्दी (hi) | Indian | dal + rice or roti; vegetable or chickpea curry; curd/raita as a side |
+| Français (fr) | French / Mediterranean | fish or chicken + vegetables + whole-grain bread; vegetable soup; balanced plate |
+| العربية (ar) | Middle Eastern / North African | grilled meat + rice or bulgur; hummus + salad + whole-wheat pita; lentil soup |
+| Português (pt) | Brazilian / Portuguese | rice + beans + grilled protein; lighter feijoada-style stew with vegetables |
+| Русский (ru) | Eastern European | buckwheat + protein; vegetable soup; kefir/cottage cheese; baked fish + potatoes |
+
+- Use the cuisine only as a style guide: the actual protein, carbs, and vegetables still come from today's ingredients and the calorie/macro targets. Do not force exotic substitutions.
+- Write dish names in the chosen language; keep well-known regional names in their original spelling where natural (e.g. "bowl", "盖浇饭", "burrito", "dal", "hummus", "гречка").
+
 ## Sample day (~2,000 kcal) — adapt portions to the computed target
 
 - Breakfast: oats + milk/soy milk + fruit + a few nuts

@@ -35,5 +35,6 @@ Use the same message structure in every language, with these section labels:
 ## Rules
 
 - Write the entire message in the chosen language; no mixed-language labels, except food names commonly kept in their original form.
+- Dialogue scripts (opening message, three-day review, training-log follow-up) have fixed 8-language versions in [references/dialogues.md](references/dialogues.md); use them verbatim.
 - Numbers and units follow the user's preference (metric kg/cm vs imperial lb/ft/in).
 - If the user requests a language outside these 8, explain that the skill supports only these 8 and offer the closest match.
