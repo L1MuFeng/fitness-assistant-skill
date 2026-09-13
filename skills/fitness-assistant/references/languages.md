@@ -31,6 +31,10 @@ Use the same message structure in every language, with these section labels:
 | Carbs | 碳水 | Carbohidratos | कार्ब्स | Glucides | كربوهيدرات | Carboidratos | Углеводы |
 | Fat | 脂肪 | Grasas | वसा | Lipides | دهون | Gorduras | Жиры |
 | Rest day | 休息日 | Día de descanso | आराम का दिन | Jour de repos | يوم راحة | Dia de descanso | День отдыха |
+| Estimated cost | 预计花费 | Costo estimado | अनुमानित खर्च | Coût estimé | التكلفة التقديرية | Custo estimado | Ориентировочная стоимость |
+| Budget | 预算 | Presupuesto | बजट | Budget | الميزانية | Orçamento | Бюджет |
+| Within budget | 在预算内 | Dentro del presupuesto | बजट के भीतर | Dans le budget | ضمن الميزانية | Dentro do orçamento | В пределах бюджета |
+| Over budget | 超出预算 | Fuera del presupuesto | बजट से अधिक | Hors budget | تجاوز الميزانية | Acima do orçamento | Превышает бюджет |
 
 ## Rules
 

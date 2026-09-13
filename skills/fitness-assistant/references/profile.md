@@ -15,6 +15,7 @@ Collect only what is needed. Reuse the saved profile when one exists (agent memo
 | Health conditions & limitations | Safety and plan adaptation | e.g. diabetes, hypertension, joint/knee problems, injuries, pregnancy (refer to a professional — do not plan), medication affecting diet |
 | Dietary preferences / restrictions | Meal planning | vegetarian / vegan, halal, allergies, intolerances, foods they dislike |
 | Ingredient preferences | Build-your-own menu | optional per-meal picks (protein / carbs / vegetables / fats / snacks) from meal-planning.md, e.g. "chicken + rice for lunch" |
+| Daily food budget | Cost control | amount + currency, e.g. "¥60/day", "$15/day"; optional — see budget.md |
 | Training experience & equipment | Workout plan | beginner / intermediate / advanced; gym / home / bodyweight; days available per week |
 | Training time & frequency | Workout schedule | preferred days and clock, e.g. "07:00, Mon/Wed/Fri"; also determines meal timing around workouts |
 | Training intensity | Workout prescription | light / moderate / high (or RPE 1-10); beginners start at light-to-moderate |
@@ -31,6 +32,7 @@ Collect only what is needed. Reuse the saved profile when one exists (agent memo
 - When the user picks ingredients for a menu, save those choices as preferences (e.g. "chicken + rice for lunch") so future runs reuse them; ask again only when they want to change.
 - Use the opening message (references/opening.md) to tell the user what to prepare, then collect the remaining fields one or two at a time — including ingredient choices, training time, and training intensity.
 - Before building a menu, ask what ingredients the user has today and recommend dishes from them (see meal-planning.md); treat it as a fresh question each day, not a saved preference.
+- Ask for the daily food budget and its currency when the user wants to control cost, and store it; count only the items that still have to be bought (see budget.md).
 - After a completed workout, log the actual training time, intensity, duration, and how it felt (see training.md), and use the latest entry when writing the next plan.
 - If the user does not know their timezone, derive it from their device/OS, or ask for city/country and map it to an IANA name.
 - If the user is a minor, has a chronic condition, is pregnant, or is on medication that affects diet/training, recommend professional medical or nutritional review before following the plan.

@@ -10,7 +10,7 @@ Hi! I'm your fitness assistant. I'll build you a personalized one-day meal plan 
 
 Please be ready to tell me:
 1. Your basics and goal — age, sex, height, weight, how active your daily life is, and whether you want to lose, maintain, or gain weight.
-2. Your food choices — anything you must avoid (allergies, vegetarian/vegan, halal, etc.), foods you dislike, which ingredients you'd like for meals (protein, carbs, vegetables, fats, snacks), and what you have on hand today — I'll recommend dishes from it.
+2. Your food choices — anything you must avoid (allergies, vegetarian/vegan, halal, etc.), foods you dislike, which ingredients you'd like for meals (protein, carbs, vegetables, fats, snacks), and what you have on hand today — I'll recommend dishes from it. If you want to keep costs down, add your daily food budget and currency.
 3. Your training — experience level, equipment (gym / home / none), how many days per week and at what time you prefer to train, how intense you want the session to be (light / moderate / high), and how long you can spend.
 4. Where and when to deliver — your timezone, preferred language, and whether you want a one-time plan or a daily scheduled message.
 
@@ -22,7 +22,7 @@ For any item you don't care about, just say "you decide" and I'll pick sensible 
 
 请提前准备好以下信息：
 1. 基本情况和目标——年龄、性别、身高、体重、日常活动量，以及你想减脂、保持还是增肌。
-2. 饮食选择——有什么过敏或忌口（素食/纯素、清真等）、不吃的食物、你偏好的食材（蛋白质、碳水、蔬菜、脂肪、加餐），以及今天手头有哪些食材——我会据此推荐菜品。
+2. 饮食选择——有什么过敏或忌口（素食/纯素、清真等）、不吃的食物、你偏好的食材（蛋白质、碳水、蔬菜、脂肪、加餐），以及今天手头有哪些食材——我会据此推荐菜品。如果想控制花费，再告诉我每天的食材预算和货币。
 3. 训练安排——训练经验、可用器械（健身房 / 居家 / 徒手）、每周训练天数和偏好时间、期望强度（轻 / 中 / 高）和每次能投入的时长。
 4. 交付方式——你的时区、偏好的语言，以及需要一次性计划还是每天定时推送。
 
@@ -34,7 +34,7 @@ For any item you don't care about, just say "you decide" and I'll pick sensible 
 
 Ten preparada esta información:
 1. Tus datos básicos y objetivo: edad, sexo, altura, peso, tu nivel de actividad diaria y si quieres perder, mantener o ganar peso.
-2. Tus preferencias alimentarias: alergias o alimentos que debes evitar (vegetariano/vegano, halal, etc.), comidas que no te gustan, ingredientes que prefieres (proteína, carbohidratos, verduras, grasas, tentempiés) y qué tienes a mano hoy — te recomendaré platos con ellos.
+2. Tus preferencias alimentarias: alergias o alimentos que debes evitar (vegetariano/vegano, halal, etc.), comidas que no te gustan, ingredientes que prefieres (proteína, carbohidratos, verduras, grasas, tentempiés) y qué tienes a mano hoy — te recomendaré platos con ellos. Si quieres controlar el gasto, añade tu presupuesto diario de comida y la moneda.
 3. Tu entrenamiento: nivel de experiencia, equipamiento (gimnasio / casa / ninguno), cuántos días por semana y a qué hora prefieres entrenar, la intensidad (baja / media / alta) y cuánto tiempo puedes dedicar.
 4. Dónde y cuándo recibir el plan: tu zona horaria, idioma preferido y si quieres un plan único o un mensaje diario programado.
 
@@ -46,7 +46,7 @@ Si algún punto no te importa, solo di «tú decides» y elegiré una opción ra
 
 कृपया यह जानकारी तैयार रखें:
 1. आपकी बुनियादी जानकारी और लक्ष्य — उम्र, लिंग, लंबाई, वज़न, दैनिक गतिविधि का स्तर, और आप वज़न घटाना चाहते हैं, बनाए रखना चाहते हैं या बढ़ाना चाहते हैं।
-2. खाने की पसंद — जिन चीज़ों से परहेज़ है (एलर्जी, शाकाहारी/वीगन, हलाल आदि), जो खाना पसंद नहीं, जो सामग्री आप पसंद करते हैं (प्रोटीन, कार्ब्स, सब्ज़ियाँ, वसा, स्नैक्स), और आज घर में क्या उपलब्ध है — मैं उससे व्यंजन सुझाऊँगा।
+2. खाने की पसंद — जिन चीज़ों से परहेज़ है (एलर्जी, शाकाहारी/वीगन, हलाल आदि), जो खाना पसंद नहीं, जो सामग्री आप पसंद करते हैं (प्रोटीन, कार्ब्स, सब्ज़ियाँ, वसा, स्नैक्स), और आज घर में क्या उपलब्ध है — मैं उससे व्यंजन सुझाऊँगा। अगर आप खर्च नियंत्रित रखना चाहते हैं, तो अपना रोज़ाना खाने का बजट और मुद्रा भी बताएँ।
 3. कसरत — अनुभव का स्तर, उपकरण (जिम / घर / बिना उपकरण), हफ़्ते में कितने दिन और किस समय कसरत करना चाहते हैं, तीव्रता (हल्की / मध्यम / तेज़), और कितना समय दे सकते हैं।
 4. कहाँ और कब पहुँचाना है — आपका समय क्षेत्र, पसंदीदा भाषा, और आपको एक बार का प्लान चाहिए या रोज़ाना निर्धारित संदेश।
 
@@ -58,7 +58,7 @@ Bonjour ! Je suis votre assistant fitness. Je vais vous préparer un plan person
 
 Préparez ces informations :
 1. Vos données de base et votre objectif : âge, sexe, taille, poids, votre niveau d'activité quotidienne et si vous voulez perdre, maintenir ou prendre du poids.
-2. Vos choix alimentaires : allergies ou aliments à éviter (végétarien/végan, halal, etc.), aliments que vous n'aimez pas, ingrédients préférés (protéines, glucides, légumes, matières grasses, collations) et ce que vous avez sous la main aujourd'hui — je vous recommanderai des plats avec.
+2. Vos choix alimentaires : allergies ou aliments à éviter (végétarien/végan, halal, etc.), aliments que vous n'aimez pas, ingrédients préférés (protéines, glucides, légumes, matières grasses, collations) et ce que vous avez sous la main aujourd'hui — je vous recommanderai des plats avec. Si vous voulez maîtriser le budget, ajoutez votre budget alimentaire quotidien et la devise.
 3. Votre entraînement : niveau d'expérience, équipement (salle / maison / aucun), combien de jours par semaine et à quelle heure vous préférez vous entraîner, l'intensité (légère / modérée / élevée) et le temps dont vous disposez.
 4. Où et quand livrer : votre fuseau horaire, votre langue préférée et si vous voulez un plan ponctuel ou un message quotidien programmé.
 
@@ -70,7 +70,7 @@ Si un point ne vous importe pas, dites simplement « à vous de choisir » et je
 
 يرجى تجهيز هذه المعلومات:
 1. بياناتك الأساسية وهدفك: العمر، الجنس، الطول، الوزن، مستوى نشاطك اليومي، وما إذا كنت تريد خسارة الوزن أو الحفاظ عليه أو زيادته.
-2. خياراتك الغذائية: الحساسية أو الأطعمة التي يجب تجنبها (نباتي/نباتي صرف، حلال، إلخ)، والأطعمة التي لا تفضلها، والمكونات التي تحبها (بروتين، كربوهيدرات، خضار، دهون، وجبات خفيفة)، وما هو متوفر لديك اليوم — سأقترح أطباقًا بناءً عليه.
+2. خياراتك الغذائية: الحساسية أو الأطعمة التي يجب تجنبها (نباتي/نباتي صرف، حلال، إلخ)، والأطعمة التي لا تفضلها، والمكونات التي تحبها (بروتين، كربوهيدرات، خضار، دهون، وجبات خفيفة)، وما هو متوفر لديك اليوم — سأقترح أطباقًا بناءً عليه. وإذا رغبت في ضبط التكلفة، أضف ميزانيتك اليومية للطعام والعملة.
 3. تمارينك: مستوى الخبرة، والأدوات المتاحة (نادٍ رياضي / المنزل / بدون أدوات)، وعدد الأيام في الأسبوع والوقت المفضل للتدريب، والشدة (خفيفة / متوسطة / عالية)، والمدة التي يمكنك تخصيصها.
 4. أين ومتى تتلقى الخطة: منطقتك الزمنية، ولغتك المفضلة، وما إذا كنت تريد خطة لمرة واحدة أو رسالة يومية مجدولة.
 
@@ -82,7 +82,7 @@ Olá! Sou o seu assistente de fitness. Vou preparar um plano personalizado de re
 
 Deixe estas informações prontas:
 1. Seus dados básicos e objetivo: idade, sexo, altura, peso, o quão ativa é a sua rotina e se você quer perder, manter ou ganhar peso.
-2. Suas escolhas alimentares: alergias ou alimentos que você evita (vegetariano/vegano, halal etc.), alimentos que não gosta, ingredientes que prefere (proteína, carboidratos, vegetais, gorduras, lanches) e o que você tem à mão hoje — vou recomendar pratos usando isso.
+2. Suas escolhas alimentares: alergias ou alimentos que você evita (vegetariano/vegano, halal etc.), alimentos que não gosta, ingredientes que prefere (proteína, carboidratos, vegetais, gorduras, lanches) e o que você tem à mão hoje — vou recomendar pratos usando isso. Se quiser controlar o gasto, informe também seu orçamento diário de comida e a moeda.
 3. Seu treino: nível de experiência, equipamentos (academia / casa / nenhum), quantos dias por semana e em que horário prefere treinar, intensidade (leve / moderada / alta) e quanto tempo pode dedicar.
 4. Onde e quando receber: seu fuso horário, idioma preferido e se você quer um plano único ou uma mensagem diária agendada.
 
@@ -94,7 +94,7 @@ Se algum item não for importante para você, é só dizer “você decide” e 
 
 Пожалуйста, подготовьте такую информацию:
 1. Ваши основные данные и цель: возраст, пол, рост, вес, уровень повседневной активности и хотите ли вы похудеть, сохранить или набрать вес.
-2. Ваши пищевые предпочтения: аллергии или продукты, которых стоит избегать (вегетарианство/веганство, халяль и т. п.), нелюбимая еда, предпочитаемые продукты (белки, углеводы, овощи, жиры, перекусы) и что у вас есть сегодня под рукой — я предложу блюда на их основе.
+2. Ваши пищевые предпочтения: аллергии или продукты, которых стоит избегать (вегетарианство/веганство, халяль и т. п.), нелюбимая еда, предпочитаемые продукты (белки, углеводы, овощи, жиры, перекусы) и что у вас есть сегодня под рукой — я предложу блюда на их основе. Если хотите уложиться в бюджет, укажите дневной бюджет на продукты и валюту.
 3. Ваши тренировки: уровень опыта, оборудование (зал / дома / без оборудования), сколько дней в неделю и в какое время удобно заниматься, интенсивность (лёгкая / средняя / высокая) и сколько времени вы можете выделить.
 4. Куда и когда присылать план: ваш часовой пояс, предпочитаемый язык и нужен ли разовый план или ежедневное сообщение по расписанию.
 
@@ -167,3 +167,37 @@ Você terminou o treino de hoje? Me conta: horário real do treino, intensidade 
 ### Русский (ru)
 
 Вы завершили сегодняшнюю тренировку? Расскажите: фактическое время тренировки, интенсивность (лёгкая / средняя / высокая или RPE), длительность и ощущения (слишком легко / в самый раз / очень тяжело). Я учту это при подготовке следующего занятия.
+
+## 4. Over-budget swap offer
+
+### English (en)
+
+Today's plan costs a bit more than your budget. I can swap the pricier items for cheaper ones that keep your calories and protein the same — want me to? Tell me which meal to adjust first.
+
+### 简体中文 (zh-CN)
+
+今天的方案超出了你的预算。我可以把较贵的食材换成更便宜的，同时保持热量和蛋白质不变——需要我调整吗？告诉我先从哪一餐改起。
+
+### Español (es)
+
+El plan de hoy cuesta un poco más que tu presupuesto. Puedo cambiar los ingredientes más caros por otros más económicos manteniendo las calorías y la proteína — ¿quieres que lo haga? Dime por qué comida empezar.
+
+### हिन्दी (hi)
+
+आज का प्लान आपके बजट से थोड़ा ज़्यादा है। मैं महँगी सामग्री को सस्ती सामग्री से बदल सकता हूँ और कैलोरी व प्रोटीन वही रहेगा — क्या मैं बदल दूँ? बताएँ किस भोजन से शुरू करें।
+
+### Français (fr)
+
+Le plan du jour coûte un peu plus que votre budget. Je peux remplacer les ingrédients les plus chers par d'autres moins chers en gardant les mêmes calories et protéines — voulez-vous ? Dites-moi par quel repas commencer.
+
+### العربية (ar)
+
+تكلفة خطة اليوم أعلى قليلًا من ميزانيتك. يمكنني استبدال المكونات الأغلى بأخرى أرخص مع الحفاظ على السعرات والبروتين — هل تريد ذلك؟ أخبرني بأي وجبة نبدأ.
+
+### Português (pt)
+
+O plano de hoje custa um pouco mais do que o seu orçamento. Posso trocar os ingredientes mais caros por opções mais baratas, mantendo as mesmas calorias e proteína — quer que eu faça isso? Diga por qual refeição começar.
+
+### Русский (ru)
+
+План на сегодня немного выходит за ваш бюджет. Могу заменить более дорогие продукты на более дешёвые, сохранив калории и белок, — сделать это? Скажите, с какого приёма пищи начать.

@@ -1,7 +1,7 @@
 ---
 name: fitness-assistant
 description: Plan daily meals and workouts from a user's age and health profile with customizable ingredients, then schedule localized plans via OpenClaw automations.
-version: 0.1.5
+version: 0.1.6
 ---
 
 # Fitness Assistant
@@ -16,7 +16,7 @@ Use this skill when the user asks for:
 
 ### 1. Opening message and profile
 
-Send the fixed opening message for the user's language from [references/dialogues.md](references/dialogues.md) (flow and collection rules in [references/opening.md](references/opening.md)): it introduces what the skill does and which details to prepare (basics and goal, ingredient choices, training time and intensity, delivery preferences), then collect what is missing. Ask only for what is missing. Minimum required: age, sex, height, weight, activity level, goal, health conditions/limitations, dietary restrictions, ingredient choices, training experience/equipment, training time, training intensity, daily routine, timezone (IANA), language. If the user says "you decide"/"随便" for an item, use the default and say so. If 3+ days have passed since the last confirmed menu/training plan, start with the three-day review dialogue in [references/dialogues.md](references/dialogues.md) instead of silently reusing saved settings.
+Send the fixed opening message for the user's language from [references/dialogues.md](references/dialogues.md) (flow and collection rules in [references/opening.md](references/opening.md)): it introduces what the skill does and which details to prepare (basics and goal, ingredient choices, training time and intensity, delivery preferences), then collect what is missing. Ask only for what is missing. Minimum required: age, sex, height, weight, activity level, goal, health conditions/limitations, dietary restrictions, ingredient choices, training experience/equipment, training time, training intensity, daily routine, timezone (IANA), language. Optional: a daily food budget with its currency. If the user says "you decide"/"随便" for an item, use the default and say so. If 3+ days have passed since the last confirmed menu/training plan, start with the three-day review dialogue in [references/dialogues.md](references/dialogues.md) instead of silently reusing saved settings.
 
 ### 2. Compute targets
 
@@ -31,6 +31,7 @@ Use `--unit imperial` for lb/in inputs and `--json` for machine-readable output.
 ### 3. Build today's plan
 
 - **Diet**: breakfast / lunch / dinner / optional snack split, water target, and macro-aware portions following [references/meal-planning.md](references/meal-planning.md). Offer ingredient choices per meal (protein, carbs, vegetables, fat, fruit/snack) and let the user build their own menu; use the defaults when they have no preference. When the user shares today's ingredients, recommend concrete dishes built around them. Assemble the day within ±100 kcal of the target, respect dietary restrictions and the calorie floors, and save the chosen ingredients as preferences.
+- **Cost**: when the user sets a daily food budget, estimate what the items still to buy cost (ingredients already at home count as zero), show the day total against the budget with the fixed cost labels, and offer cheaper swaps when over — see [references/budget.md](references/budget.md). Never present an estimate as an exact price.
 - **Workout**: one session matched to experience, equipment, preferred training time, intensity, and the most recent training log entry, following [references/training.md](references/training.md); include warm-up, main work, and cooldown.
 - **Language**: write the whole message in the user's chosen language from the 8 in [references/languages.md](references/languages.md), using that file's fixed labels and the fixed dialogue scripts in [references/dialogues.md](references/dialogues.md) so every language has the same structure.
 - **Safety**: this is general lifestyle guidance, not medical advice. If the profile shows a chronic condition, age under 18, pregnancy, or medication that affects diet/training, adapt conservatively and recommend professional consultation before following the plan. Never go below the calorie floors in meal-planning.md.
@@ -55,4 +56,5 @@ When the user wants the plan published on a schedule:
 - Do not invent health data or diagnose; use only what the user reports.
 - Do not use languages outside the 8 supported ones, and do not mix languages in one message.
 - Do not schedule without a confirmed timezone and delivery time.
+- Do not present food-cost estimates as exact prices, and never mix currencies.
 - Do not add medical claims or guaranteed outcomes ("burn fat in 7 days").

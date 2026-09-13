@@ -1,12 +1,14 @@
 # Changelog
 
-## 2026-09-07
+## 2026-09-13
 
 - Added: three-day check-in asking whether to keep or adjust the diet menu and training plan.
 - Added: meal planning can recommend dishes from the ingredients the user has on hand today.
 - Added: completed training time and intensity are logged and used to prepare the next workout.
 - Added: fixed 8-language versions of the opening message, three-day review, and training-log dialogues; replies now use the block matching the user's language verbatim.
 - Added: dish recommendations now follow the regional cuisine style associated with the user's chosen language.
+- Added: daily ingredient cost budget — intake asks for a food budget and currency, and plans show the estimated cost of what still has to be bought.
+- Added: when the estimate is over budget, cheaper swaps are offered that keep calories and protein the same.
 - Changed: skill references point to the fixed dialogue file instead of on-the-fly translation.
 - Changed: changelog entries no longer carry version numbers.
 

@@ -92,6 +92,7 @@ Approximate values per serving (cooked weights unless noted); scale portions ±2
 - Estimate macros for any ingredient not in the table from common values. If an item does not fit a food group, use it only as a minor addition and keep the protein + vegetables + carbs structure.
 - If a whole group is missing from the user's list (e.g. no carbs or no protein), suggest one or two simple substitutes they likely have.
 - If the user gives no ingredients, fall back to their saved ingredient preferences or the defaults above.
+- When a daily budget is set, favour the cheaper items above, reuse one purchased ingredient across meals, and price only what still has to be bought — see [references/budget.md](references/budget.md).
 
 ## Regional dish styles by language
 
